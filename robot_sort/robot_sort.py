@@ -99,7 +99,7 @@ class SortingRobot:
         # Not using the light for my implementation
         # while not at end of list
         while self.can_move_right() is True:
-            #self.swap_item()
+            self.swap_item()
             # continue moving right, swapping items as you go
             while self.can_move_right() is True:
                 # move to the right
